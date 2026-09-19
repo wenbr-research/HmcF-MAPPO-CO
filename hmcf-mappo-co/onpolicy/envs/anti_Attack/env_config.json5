@@ -1,0 +1,109 @@
+﻿{
+  // ==================== 塔防模式配置 ====================
+  // Tower Defense config
+  "border": [
+    [-45, 62],
+    [-45, 80],
+    [-29, 80],
+    [-29, 62],
+  ],
+
+  "dt": 20, // 时间步长 (秒/tick)
+
+  // 基地/目标点
+  "target_num": 5, // 保护目标数量
+  "target_points_parems": [
+    {
+      "location": [-40, 66],
+      "HP": 0,
+      "importance": 0.8
+    },
+    {"location": [-39, 66],"HP": 0,"importance": 0.9},
+    {"location": [-38.7, 65.4],"HP": 0,"importance": 0.9},
+    {"location": [-39.8, 66.4],"HP": 0,"importance": 1.0},
+    {"location": [-40, 64.8],"HP": 0,"importance": 0.3},
+  ],
+
+  // 防御塔配置
+  "tower_num": 10, // 防御塔总数
+  "tower_params": [
+    { // 类型1: 近程防御塔 ×4 (射程180km)
+      "ammo_capacity": 40,
+      "range": 180,
+      "projectile_speed": 1700,
+      "hit_probability": 0.8,
+      "reaction_time": 20,
+      "max_attack_per_channel": 2,
+      "num_channels": 5,
+      "strategy": "random",
+      "location": [
+        [-40.1, 67.2],
+        [-39.1, 67.1],
+        [-38, 67.5],
+        [-37, 68.2]
+      ],
+      "ammo_per_launcher": 140,
+    },
+    { // 类型2: 中程防御塔 ×3 (射程200km)
+      "ammo_capacity": 40,
+      "range": 200,
+      "projectile_speed": 1400,
+      "hit_probability": 0.75,
+      "reaction_time": 20,
+      "max_attack_per_channel": 2,
+      "num_channels": 5,
+      "strategy": "random",
+      "location": [
+        [-40, 69.1],
+        [-38.4, 69.2],
+        [-36.6, 69.5]
+      ],
+      "ammo_per_launcher": 140,
+    },
+    { // 类型3: 远程防御塔 ×3 (射程350km)
+      "ammo_capacity": 40,
+      "range": 350,
+      "projectile_speed": 1000,
+      "hit_probability": 0.7,
+      "reaction_time": 20,
+      "max_attack_per_channel": 2,
+      "num_channels": 5,
+      "strategy": "random",
+      "location": [
+        [-39.8, 70.6],
+        [-38.1, 70.6],
+        [-36.4, 70]
+      ],
+      "ammo_per_launcher": 140,
+    },
+  ],
+
+  // 怪兽巢穴 & 怪兽波次
+  "monster_spawn_num": 20,      // 巢穴数量
+  "monster_spawn_interval": 10, // 怪兽生成间隔 (s)
+  "monster_wave_num": 170,      // 怪兽总波次（10塔×40弹/2.31比≈173→取170，实际176只）
+  "monster_type": [             // 怪兽种类
+    {
+      "speed": 400,    // 移动速度 (m/s)
+      "HP": 100,       // 怪兽血量
+      "quantity": 2,   // 每波生成数量
+      "mtype": 0       // 类型ID
+    },
+    {"speed": 340,"HP": 200,"quantity": 2, "mtype": 1},
+    {"speed": 300,"HP": 300,"quantity": 2, "mtype": 2},
+    {"speed": 380,"HP": 150,"quantity": 2, "mtype": 3},
+  ],
+
+  // 敌方巢穴预设位置，训练时围绕这些坐标做高斯随机扰动
+  "monster_spawn_locations": 
+  [
+    [-34.7, 74],
+    [-34.7, 75],
+    [-32.9, 76.4],
+    [-33, 76.6],
+    [-33.1, 76.8],
+    [-34.9, 77.3],
+    [-35.66, 76.9]
+  ]
+
+}

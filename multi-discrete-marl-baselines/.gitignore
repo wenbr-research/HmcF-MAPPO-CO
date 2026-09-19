@@ -1,0 +1,27 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE metadata
+.idea/
+.vscode/
+
+# Experiment artifacts
+onpolicy/scripts/results/
+server_logs/
+logs/
+models/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.tfevents.*
+
+# Generated media and analysis outputs
+visualizations/
+analysis_outputs/
+*.gif
+*.png
+*.pdf

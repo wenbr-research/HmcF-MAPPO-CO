@@ -1,0 +1,225 @@
+{
+  border: [
+    [
+      -45,
+      62,
+    ],
+    [
+      -45,
+      80,
+    ],
+    [
+      -29,
+      80,
+    ],
+    [
+      -29,
+      62,
+    ],
+  ],
+  dt: 20,
+  target_num: 5,
+  target_points_parems: [
+    {
+      location: [
+        -40,
+        66,
+      ],
+      HP: 0,
+      importance: 0.8,
+    },
+    {
+      location: [
+        -39,
+        66,
+      ],
+      HP: 0,
+      importance: 0.9,
+    },
+    {
+      location: [
+        -38.7,
+        65.4,
+      ],
+      HP: 0,
+      importance: 0.9,
+    },
+    {
+      location: [
+        -39.8,
+        66.4,
+      ],
+      HP: 0,
+      importance: 1.0,
+    },
+    {
+      location: [
+        -40,
+        64.8,
+      ],
+      HP: 0,
+      importance: 0.3,
+    },
+  ],
+  tower_num: 15,
+  tower_params: [
+    {
+      ammo_capacity: 40,
+      range: 180,
+      projectile_speed: 1700,
+      hit_probability: 0.8,
+      reaction_time: 20,
+      max_attack_per_channel: 2,
+      num_channels: 5,
+      strategy: "random",
+      location: [
+        [
+          -40.4,
+          66.9,
+        ],
+        [
+          -39.7,
+          67,
+        ],
+        [
+          -39,
+          67.1,
+        ],
+        [
+          -38.3,
+          67.2,
+        ],
+        [
+          -37.6,
+          67.6,
+        ],
+        [
+          -36.9,
+          68,
+        ],
+      ],
+      ammo_per_launcher: 140,
+    },
+    {
+      ammo_capacity: 40,
+      range: 200,
+      projectile_speed: 1400,
+      hit_probability: 0.75,
+      reaction_time: 20,
+      max_attack_per_channel: 2,
+      num_channels: 5,
+      strategy: "random",
+      location: [
+        [
+          -40.4,
+          68.8,
+        ],
+        [
+          -39.4,
+          69,
+        ],
+        [
+          -38.4,
+          69.2,
+        ],
+        [
+          -37.4,
+          69.4,
+        ],
+        [
+          -36.4,
+          69.6,
+        ],
+      ],
+      ammo_per_launcher: 140,
+    },
+    {
+      ammo_capacity: 40,
+      range: 350,
+      projectile_speed: 1000,
+      hit_probability: 0.7,
+      reaction_time: 20,
+      max_attack_per_channel: 2,
+      num_channels: 5,
+      strategy: "random",
+      location: [
+        [
+          -40.2,
+          70.6,
+        ],
+        [
+          -39,
+          70.7,
+        ],
+        [
+          -37.8,
+          70.6,
+        ],
+        [
+          -36.6,
+          70.3,
+        ],
+      ],
+      ammo_per_launcher: 140,
+    },
+  ],
+  monster_spawn_num: 20,
+  monster_spawn_interval: 10,
+  monster_wave_num: 250,
+  monster_type: [
+    {
+      speed: 400,
+      HP: 100,
+      quantity: 2,
+      mtype: 0,
+    },
+    {
+      speed: 340,
+      HP: 200,
+      quantity: 2,
+      mtype: 1,
+    },
+    {
+      speed: 300,
+      HP: 300,
+      quantity: 2,
+      mtype: 2,
+    },
+    {
+      speed: 380,
+      HP: 150,
+      quantity: 2,
+      mtype: 3,
+    },
+  ],
+  monster_spawn_locations: [
+    [
+      -34.7,
+      74,
+    ],
+    [
+      -34.7,
+      75,
+    ],
+    [
+      -32.9,
+      76.4,
+    ],
+    [
+      -33,
+      76.6,
+    ],
+    [
+      -33.1,
+      76.8,
+    ],
+    [
+      -34.9,
+      77.3,
+    ],
+    [
+      -35.66,
+      76.9,
+    ],
+  ],
+}

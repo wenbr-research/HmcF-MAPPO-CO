@@ -1,0 +1,30 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local tooling
+.idea/
+.vscode/
+
+# Training outputs and checkpoints
+**/onpolicy/scripts/results/
+**/server_logs/
+**/logs/
+**/models/
+**/runs/
+*.pt
+*.pth
+*.ckpt
+*.tfevents.*
+
+# Generated media and analysis outputs
+**/visualizations/
+**/analysis_outputs/
+*.gif
+*.png
+*.pdf
+*.log
+*.backup_*
+episode_interception_ratios.csv

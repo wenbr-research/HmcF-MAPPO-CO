@@ -1,0 +1,225 @@
+{
+  "border": [
+    [
+      -45,
+      62
+    ],
+    [
+      -45,
+      80
+    ],
+    [
+      -29,
+      80
+    ],
+    [
+      -29,
+      62
+    ]
+  ],
+  "dt": 20,
+  "target_num": 5,
+  "target_points_parems": [
+    {
+      "location": [
+        -40,
+        66
+      ],
+      "hp": 0,
+      "importance": 0.8
+    },
+    {
+      "location": [
+        -39,
+        66
+      ],
+      "hp": 0,
+      "importance": 0.9
+    },
+    {
+      "location": [
+        -38.7,
+        65.4
+      ],
+      "hp": 0,
+      "importance": 0.9
+    },
+    {
+      "location": [
+        -39.8,
+        66.4
+      ],
+      "hp": 0,
+      "importance": 1.0
+    },
+    {
+      "location": [
+        -40,
+        64.8
+      ],
+      "hp": 0,
+      "importance": 0.3
+    }
+  ],
+  "tower_num": 15,
+  "tower_params": [
+    {
+      "fixed_reaction_time": 20,
+      "location": [
+        [
+          -40.1,
+          67.2
+        ],
+        [
+          -39.2,
+          67
+        ],
+        [
+          -38.4,
+          67.2
+        ],
+        [
+          -37.6,
+          67.8
+        ],
+        [
+          -36.8,
+          68.4
+        ],
+        [
+          -38.9,
+          68.5
+        ]
+      ],
+      "max_ammo": 40,
+      "attack_range": 180,
+      "projectile_speed": 1700,
+      "hit_rate": 0.8,
+      "max_attack_per_channel": 5,
+      "attack_channels": 5,
+      "defense_strategy": "random",
+      "projectile_count": 140
+    },
+    {
+      "fixed_reaction_time": 20,
+      "location": [
+        [
+          -40.2,
+          69.1
+        ],
+        [
+          -39,
+          69.3
+        ],
+        [
+          -37.8,
+          69.5
+        ],
+        [
+          -36.6,
+          69.7
+        ],
+        [
+          -35.5,
+          70
+        ]
+      ],
+      "max_ammo": 40,
+      "attack_range": 200,
+      "projectile_speed": 1400,
+      "hit_rate": 0.75,
+      "max_attack_per_channel": 5,
+      "attack_channels": 5,
+      "defense_strategy": "random",
+      "projectile_count": 140
+    },
+    {
+      "fixed_reaction_time": 20,
+      "location": [
+        [
+          -40,
+          70.7
+        ],
+        [
+          -38.4,
+          70.9
+        ],
+        [
+          -37.1,
+          70.5
+        ],
+        [
+          -35.4,
+          69.4
+        ]
+      ],
+      "max_ammo": 40,
+      "attack_range": 350,
+      "projectile_speed": 1000,
+      "hit_rate": 0.7,
+      "max_attack_per_channel": 5,
+      "attack_channels": 5,
+      "defense_strategy": "random",
+      "projectile_count": 140
+    }
+  ],
+  "nest_num": 20,
+  "spawn_interval": 10,
+  "max_monster_batches": 250,
+  "monster_spawn_locations": [
+    [
+      -34.7,
+      74
+    ],
+    [
+      -34.7,
+      75
+    ],
+    [
+      -32.9,
+      76.4
+    ],
+    [
+      -33,
+      76.6
+    ],
+    [
+      -33.1,
+      76.8
+    ],
+    [
+      -34.9,
+      77.3
+    ],
+    [
+      -35.66,
+      76.9
+    ]
+  ],
+  "monster_types": [
+    {
+      "speed": 400,
+      "quantity": 2,
+      "damage": 100,
+      "monster_type": 0
+    },
+    {
+      "speed": 340,
+      "quantity": 2,
+      "damage": 200,
+      "monster_type": 1
+    },
+    {
+      "speed": 300,
+      "quantity": 2,
+      "damage": 300,
+      "monster_type": 2
+    },
+    {
+      "speed": 380,
+      "quantity": 2,
+      "damage": 150,
+      "monster_type": 3
+    }
+  ]
+}
